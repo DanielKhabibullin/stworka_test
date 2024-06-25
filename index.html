@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Stworka test</title>
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/default.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <section class="checklist">
+        <div class="checklist__wrapper">
+          <div class="checklist__progress-bar progress-bar">
+            <div class="progress-bar__indicator"></div>
+            <div class="progress-bar__text">
+              <span class="progress-bar__current" data-current="0">0</span>
+              <span class="progress-bar__separator">/</span>
+              <span class="progress-bar__total" data-total="7">7</span>
+            </div>
+          </div>
+          <div class="checklist__details">
+            <p class="checklist__details-text">Чеклист</p>
+            <p class="checklist__details-title">Выполнено:
+              <span class="checklist__details-current" data-current="0">0</span> из 
+              <span class="checklist__details-total" data-total="7">7</span> действий
+            </p>
+            <p class="checklist__details-descr">Следующее действие:
+              Созвониться с клиентом до 
+              <time class="checklist__details-time" datetime="2024-05-23T12:00">23.05.24 12:00</time>
+            </p>
+          </div>
+          <button class="checklist__btn btn">Открыть чеклист</button>
+        </div>
+    </section>
+  </main> <!--/.main-->
+</body>
+
+</html>
